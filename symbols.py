@@ -1,4 +1,3 @@
-"""Update the json list if more words need to get recognised"""
 symbol = {
     'alpha': 'α',
     'beta': 'β',
@@ -20,10 +19,40 @@ symbol = {
     'differentiation': '∂',
     'equal to': '=',
     'equals to': '=',
-    'equas': '='
+    'equas': '=',
+    'limit': 'lim',
+    'squared': '^2',
+    'cubed': '^3',
+    'square root': '√',
+    'cube root': '∛',
+    'power': '^',
+    'phi': 'φ',
+    'mixed fraction': '¾',
+    'pi': 'π',
+    'sigma': 'σ',
+    'delta': 'δ',
+    'epsilon': 'ε',
+    'mu': 'μ',
+    'nu': 'ν',
+    'omicron': 'ο',
+    'rho': 'ρ',
+    'tau': 'τ',
+    'upsilon': 'υ',
+    'psi': 'ψ',
+    'omega': 'ω',
+    'greater than': '>',
+    'less than': '<',
+    'gtet': '≥',
+    'ltet': '≤',
+    'not equal to': '≠',
+    'infinity': '∞',
+    'integral': '∫',
+    'partial': '∂',
+    'degree': '°',
+    'angle': '∠',
+    'perpendicular': '⊥',
+    'parallel': '∥',
 }
 
-
 def get():
-    # export the symbol list
-    return symbol
+    return symbol.copy()
